@@ -1,0 +1,19 @@
+.inputBox {
+  width: 60%;
+  margin-bottom: 18px;
+  border: 2px solid skyblue;
+  width: 30%;
+  padding: 10px 15px;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 26px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.inputBox:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+  outline: none;
+}
